@@ -1,0 +1,11 @@
+{
+"title" : "Better Steam Overlay Replacement",
+"type" : "tool",
+"tags" : "fun",
+"ignore" :
+[
+"*.psd",
+"*.vcproj",
+"*.svn"
+]
+}
