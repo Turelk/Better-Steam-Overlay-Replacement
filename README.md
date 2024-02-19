@@ -29,3 +29,15 @@ Better Steam Overlay Replacement is a GMod mod, whose task is to try to replicat
 ✅ Home HTML
 
 ## Screenshots
+
+![bsor](https://github.com/Turelk/Better-Steam-Overlay-Replacement/assets/157890839/b41080bb-a9c7-456d-b7e6-cf8c3ae89526)
+
+![bsor2](https://github.com/Turelk/Better-Steam-Overlay-Replacement/assets/157890839/769eb6e5-742f-4a0d-b005-3afce79072eb)
+
+![bsor3](https://github.com/Turelk/Better-Steam-Overlay-Replacement/assets/157890839/9813302b-85aa-41c6-9611-f898fe22795d)
+
+![bsor4](https://github.com/Turelk/Better-Steam-Overlay-Replacement/assets/157890839/2a2ffaa0-c078-4fb4-ab4f-a4838b4d084b)
+
+![bsor5](https://github.com/Turelk/Better-Steam-Overlay-Replacement/assets/157890839/77a908c1-66b7-4fb1-aa50-79d973806224)
+
+![bsor6](https://github.com/Turelk/Better-Steam-Overlay-Replacement/assets/157890839/833ac9c1-0892-4e20-8349-71803829ff77)
