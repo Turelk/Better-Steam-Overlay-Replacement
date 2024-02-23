@@ -11,6 +11,13 @@
   <link href="gwdpagedeck_style.css" rel="stylesheet" data-version="14" data-exports-type="gwd-pagedeck">
   <link href="gwdgooglead_style.css" rel="stylesheet" data-version="9" data-exports-type="gwd-google-ad">
   <link href="gwdimage_style.css" rel="stylesheet" data-version="17" data-exports-type="gwd-image">
+  <link href="gwdaudio_style.css" rel="stylesheet" data-version="9" data-exports-type="gwd-audio">
+  <script>
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * max);
+    }
+    console.log(getRandomInt(2));
+  </script>
   <style id="gwd-lightbox-style">
     .gwd-lightbox {
       overflow: hidden;
@@ -67,25 +74,13 @@
       top: 0px;
       transform: translate3d(0px, 0px, 0px);
     }
-    @keyframes gwd-gen-19oegwdanimation_gwd-keyframes {
-      0% {
-        transform: translate3d(0px, 0px, 0px);
-        animation-timing-function: linear;
-      }
-      100% {
-        transform: translate3d(0px, -2140px, 0px);
-        animation-timing-function: linear;
-      }
-    }
-    #page1.gwd-play-animation .gwd-gen-19oegwdanimation {
-      animation: 12s linear 0s infinite normal forwards running gwd-gen-19oegwdanimation_gwd-keyframes;
-    }
     .gwd-image-1xr8 {
       position: absolute;
-      width: 1000px;
-      height: 153px;
-      left: 183px;
-      top: 36px;
+      width: 1165px;
+      height: 208px;
+      transform-origin: 50% 50% 0px;
+      left: 101px;
+      top: 38px;
     }
     .gwd-image-1f7c {
       position: absolute;
@@ -107,6 +102,36 @@
       left: 62px;
       top: 236px;
     }
+    @keyframes gwd-gen-19oegwdanimation_gwd-keyframes {
+      0% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: linear;
+      }
+      100% {
+        transform: translate3d(0px, -2129px, 0px);
+        animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-19oegwdanimation {
+      animation: 12s linear 0s infinite normal forwards running gwd-gen-19oegwdanimation_gwd-keyframes;
+    }
+    .gwd-audio-1797 {
+      position: absolute;
+      height: 140px;
+      top: 588px;
+      width: 322px;
+      transform-origin: 50% 50% 0px;
+      left: 999px;
+      border-style: none;
+    }
+    .gwd-imagebutton-xyxm {
+      position: absolute;
+      transform-origin: 50% 50% 0px;
+      width: 195px;
+      height: 52px;
+      left: 40px;
+      top: 676px;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" type="text/css">
   <script data-source="gwd_webcomponents_v1_min.js" data-version="2" data-exports-type="gwd_webcomponents_v1" src="gwd_webcomponents_v1_min.js"></script>
@@ -115,18 +140,29 @@
   <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-google-ad" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
   <script data-source="gwdgooglead_min.js" data-version="9" data-exports-type="gwd-google-ad" src="gwdgooglead_min.js"></script>
   <script data-source="gwdimage_min.js" data-version="17" data-exports-type="gwd-image" src="gwdimage_min.js"></script>
+  <script data-source="gwdaudio_min.js" data-version="9" data-exports-type="gwd-audio" src="gwdaudio_min.js"></script>
+  <script data-source="gwdimagebutton_min.js" data-version="13" data-exports-type="gwd-imagebutton" src="gwdimagebutton_min.js"></script>
 </head>
 
 <body>
   <gwd-google-ad id="gwd-ad" polite-load="">
-    <gwd-metric-configuration></gwd-metric-configuration>
+    <gwd-metric-configuration>
+      <gwd-metric-event source="Team_Fortress_2_Soundtrack___Upgrade_Station" event="play" metric=""></gwd-metric-event>
+      <gwd-metric-event source="Team_Fortress_2_Soundtrack___Upgrade_Station" event="playing" metric=""></gwd-metric-event>
+      <gwd-metric-event source="Team_Fortress_2_Soundtrack___Upgrade_Station" event="pause" metric=""></gwd-metric-event>
+      <gwd-metric-event source="Team_Fortress_2_Soundtrack___Upgrade_Station" event="ended" metric=""></gwd-metric-event>
+      <gwd-metric-event source="Team_Fortress_2_Soundtrack___Upgrade_Station" event="waiting" metric=""></gwd-metric-event>
+    </gwd-metric-configuration>
     <gwd-pagedeck class="gwd-page-container" id="pagedeck">
       <gwd-page id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox" data-gwd-width="1366px" data-gwd-height="768px">
         <div class="gwd-page-content gwd-page-size">
           <gwd-image id="background_fall" source="https://github.com/Turelk/Better-Steam-Overlay/blob/56c608f41e99526d93ba1fb2db9cbe8db213cff0/home_pages_htmls/assets/steam_desktop_placeholder_fall.png?raw=true" scaling="stretch" class="gwd-image-1ye7 gwd-gen-19oegwdanimation"></gwd-image>
-          <gwd-image id="logo_medium" source="https://github.com/Turelk/Better-Steam-Overlay/blob/56c608f41e99526d93ba1fb2db9cbe8db213cff0/home_pages_htmls/assets/logo_medium.png?raw=true" scaling="stretch" class="gwd-image-1xr8"></gwd-image>
-          <gwd-image id="workshop_banner" source="https://github.com/Turelk/Better-Steam-Overlay/blob/56c608f41e99526d93ba1fb2db9cbe8db213cff0/home_pages_htmls/assets/workshop_banner.png?raw=true" scaling="stretch" class="gwd-image-1f7c"></gwd-image>
-          <span class="gwd-span-em3s">This is a Beter Steam Overlay Replacement browser home page you can use html top bar to navigate</span></div>
+          <gwd-image id="logo_medium" source="https://github.com/Turelk/Better-Steam-Overlay-Replacement/blob/ba2c28dc5bcd77122d21d5dcc3b6ed9f0f5e4e61/home_pages_htmls/assets/logo_medium.png?raw=true" scaling="stretch" class="gwd-image-1xr8"></gwd-image>
+          <gwd-image id="workshop_banner" source="https://github.com/Turelk/Better-Steam-Overlay/blob/56c608f41e99526d93ba1fb2db9cbe8db213cff0/home_pages_htmls/assets/workshop_banner.png?raw=true" scaling="stretch" class="gwd-image-1f7c" data-gwd-tl-hidden=""></gwd-image>
+          <span class="gwd-span-em3s">This is a Better Steam Overlay Replacement browser home page you can use html top bar to navigate</span>
+          <gwd-audio id="Team_Fortress_2_Soundtrack___Upgrade_Station" sources="assets/wait_music.mp3" class="gwd-audio-1797" data-gwd-name="WaitMusic" autoplay="" loop=""></gwd-audio>
+          <gwd-imagebutton id="gwd-imagebutton_1" up-image="https://github.com/Turelk/Better-Steam-Overlay/blob/56c608f41e99526d93ba1fb2db9cbe8db213cff0/home_pages_htmls/assets/workshop_banner.png?raw=true" over-image="https://github.com/Turelk/Better-Steam-Overlay/blob/56c608f41e99526d93ba1fb2db9cbe8db213cff0/home_pages_htmls/assets/workshop_banner.png?raw=true" down-image="https://github.com/Turelk/Better-Steam-Overlay/blob/56c608f41e99526d93ba1fb2db9cbe8db213cff0/home_pages_htmls/assets/workshop_banner.png?raw=true" scaling="cover" class="gwd-imagebutton-xyxm"></gwd-imagebutton>
+        </div>
       </gwd-page>
     </gwd-pagedeck>
   </gwd-google-ad>
