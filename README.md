@@ -20,9 +20,13 @@ Better Steam Overlay Replacement is a GMod mod, whose task is to try to replicat
 
 ✅ Guides
 
-❌ Workshop
+❌ Workshop (Coming soon, ready though)
 
-❌ Browser Tabs/History
+❌ Browser Tabs/History (Coming soon, I guess?)
+
+❌ Timer
+
+❌ Screenshot viewer
 
 ❌ Chat (??)
 
