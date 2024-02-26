@@ -30,6 +30,10 @@ Better Steam Overlay Replacement is a GMod mod, whose task is to try to replicat
 
 ❌ Better GUI
 
+  - ❌ Steam Icons
+  - ❌ Simple ReSkin
+  - ❌ Custom Buttons?
+
 ❌ Chat (??)
 
 ✅ Home HTML
